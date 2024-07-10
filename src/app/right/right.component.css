@@ -12,7 +12,6 @@
     display: flex;
     flex-direction:row; 
     flex:1;
-    background-color: aqua;
     border-top-right-radius: 30px;
     align-items: center;
     justify-content: space-between;
@@ -22,7 +21,6 @@
     display: flex;
     flex-direction: row;
     flex:8;
-    background-color:aquamarine;
 }
 .navbartabs
 {
@@ -30,11 +28,109 @@
     flex-direction: row;
     margin-left: 30px;
     margin-top: 20px;
+    font-family: Poppins;
+    font-size: medium;  
+    font-weight: 500;
 }
+.underline
+{
+    border-bottom: 2px solid black;
+    width: 50px;
+}
+.underline-today
+{
+    transform: translate3d(200%,0,0);
+    transition: 100ms
+}
+.underline-week
+{
+    transform: translate3d(100%,0,0);
+    transition: 100ms
+}
+.today
+{
+    margin-right: 5px;
+    color: #c5c5c5;
+}
+.Week
+{
+    margin-left: 5px;
+    color: #c5c5c5;
+}
+.today:hover
+{
+    color: black;
+    cursor: pointer;
+}
+.Week:hover
+{
+    color: black;
+    cursor: pointer;
+}
+.today-active{   color: black;}
+.weekactive{color: black;}
+
+
 .nav_bar_metrics
 {
     display: flex;
-    flex-direction:row-reverse;
+    flex-direction:row;
     margin-right: 30px;
     margin-top: 20px;
+    font-family: Poppins;
+    font-size: medium;  
+    font-weight: 500;
+}
+.celsius
+{
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+    color: black;
+    background-color:white;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 2px;
+}
+.farenheit
+{
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+    color: black;
+    background-color:white;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 2px;
+    margin-right: 8px;
+}
+.celsius:hover
+{
+    color: whitesmoke;
+    background-color: black;
+    cursor: pointer;
+}
+.farenheit:hover
+{
+    color: whitesmoke;
+    background-color: black;
+    cursor: pointer;
+}
+.celsius-active{color: whitesmoke;
+    background-color: black;}
+    .farenheit-active{color: whitesmoke;
+    background-color: black;}
+.profile
+{
+    margin-left: 6px;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+     
 }
